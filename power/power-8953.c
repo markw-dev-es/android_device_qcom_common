@@ -164,7 +164,6 @@ int power_hint_override(__unused struct power_module *module, power_hint_t hint,
 
     switch (hint) {
         case POWER_HINT_INTERACTION:
-            ALOGI("INTERACTION HINT");
             duration = 500;
             duration_hint = 0;
 
